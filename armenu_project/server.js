@@ -3,7 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import menuroute from './routes/menuroutes.js';
+import menuroute from './routes/menu.routes.js';
 dotenv.config();
 
 const app = express();

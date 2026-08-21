@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Menu from '../model/menumodel.js';
+import Menu from '../model/menu.model.js';
 
 
 export const addmenu = async (req, res) => {
