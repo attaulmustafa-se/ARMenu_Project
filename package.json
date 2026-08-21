@@ -1,0 +1,38 @@
+{
+  "name": "armenu_project",
+  "version": "1.0.0",
+  "description": "ARMenu – An MERN stack based Augmented Reality restaurant menu app that replaces traditional paper menus with interactive 3D food models. Using AR technology, customers can preview realistic dishes before ordering, enhancing the dining experience and reducing order mistakes.",
+  "main": "index.js",
+  "scripts": {
+    "client": "vite --host 0.0.0.0 --config vite.config.js",
+    "build": "vite build --config vite.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attaulmustafa-se/ARMenu_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/attaulmustafa-se/ARMenu_Project/issues"
+  },
+  "homepage": "https://github.com/attaulmustafa-se/ARMenu_Project#readme",
+  "dependencies": {
+    "@google/model-viewer": "^4.3.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3",
+    "nodemon": "^3.1.14",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.0",
+    "vite": "^8.2.2"
+  }
+}
