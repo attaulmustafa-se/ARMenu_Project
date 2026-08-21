@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 import Menu from '../model/menu.model.js';
 
 
@@ -10,7 +9,7 @@ export const addmenu = async (req, res) => {
         const isAvailable = true;
         const URLmodel = "ARModels/chicken_duck.glb";
         await Menu.create({ name, price, isAvailable, URLmodel });
-
+        
         return res.status(200).json({message: "Menu added successfully"});
     } catch (error) {
         return res.status(500).json({
@@ -84,4 +83,3 @@ export const deleteDuplicates = async (req, res) => {
         return res.status(500).json({ success: false, message: 'Could not remove duplicates', error: error.message });
     }
 };
->>>>>>> Stashed changes
